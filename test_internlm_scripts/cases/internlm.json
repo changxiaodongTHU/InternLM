@@ -1,0 +1,38 @@
+{
+    "internlm_0001": {
+        "directory": "InternLM",
+        "testcases": [
+            "srun -p llm2 -n 8 --ntasks-per-node=8 --gpus-per-task=1 python train.py --config ./test_configs/internlm_0001_bfloat16_zero8_pipeline1_ternsor1.py"
+        ]
+    },
+    "internlm_0002": {
+        "directory": "InternLM",
+        "testcases": [
+            "srun -p llm2 -n 8 --ntasks-per-node=8 --gpus-per-task=1 python train.py --config ./test_configs/internlm_0002_bfloat16_zero4_pipeline1_ternsor2.py"
+        ]
+    },
+    "internlm_0003": {
+        "directory": "InternLM",
+        "testcases": [
+            "srun -p llm2 -n 8 --ntasks-per-node=8 --gpus-per-task=1 python train.py --config ./test_configs/internlm_0003_bfloat16_zero4_pipeline2_ternsor1.py"
+        ]
+    },
+    "internlm_0004": {
+        "directory": "InternLM",
+        "testcases": [
+            "srun -p llm2 -n 8 --ntasks-per-node=8 --gpus-per-task=1 python train.py --config ./test_configs/internlm_0004_bfloat16_zero-1_pipeline2_ternsor2.py"
+        ]
+    },
+    "internlm_0005": {
+        "directory": "InternLM",
+        "testcases": [
+            "srun -p llm2 -n 8 --ntasks-per-node=8 --gpus-per-task=1 python train.py --config ./test_configs/internlm_0005_bfloat16_zero-1_pipeline2_ternsor1.py"
+        ]
+    },
+    "internlm_0006": {
+        "directory": "InternLM",
+        "testcases": [
+            "srun -p llm2 -n 8 --ntasks-per-node=8 --gpus-per-task=1 python train.py --config ./test_configs/internlm_0006_bfloat16_zero4_pipeline1_ternsor1.py"
+        ]
+    }
+}
