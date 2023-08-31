@@ -1,1 +1,5 @@
+pytest
+pytest-timeout
+pytest-xdist
+pymongo
 git+https://oauth2:fRu6914ZbJg-1Qn3XuBz@gitlab.pjlab.org.cn/qa/shlab-qa-test-framework.git
